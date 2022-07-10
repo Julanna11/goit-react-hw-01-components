@@ -1,82 +1,81 @@
-
 .profile {
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 300px;
-background-color: white;
-border-radius: 5px;
-box-shadow: 2px 5px 5px grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px grey;
 }
 
 .description {
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .avatar {
-margin: 50px auto;
-width: 130px;
-height: 130px;
-object-fit: cover;
-border-radius: 50%;
+  margin: 50px auto;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .username {
-display: block;
-margin: 0;
-margin-bottom: 5px;
-font-size: 25px;
-font-weight: 500; 
-text-align: center;
+  display: block;
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
 }
 
 .tag {
-color: lightslategray;
-margin: 3px;
-font-size: 20px;
-font-weight: 500;
+  color: lightslategray;
+  margin: 3px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .location {
-color: lightslategray;
-margin: 3px;
-font-size: 20px;
-font-weight: 500;
-margin-bottom: 20px;
+  color: lightslategray;
+  margin: 3px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .stats {
-display: flex; 
-margin: 0;
-padding: 0;
-width: 100%;
-list-style: none;
-background-color: rgba(241, 242, 244, 0.882);
-border-top: 1px solid rgb(206, 206, 206);
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  background-color: rgba(241, 242, 244, 0.882);
+  border-top: 1px solid rgb(206, 206, 206);
 }
 
-.stats>li{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 100px;
-height: 100px;
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
 }
 
-.stats>li:not(:last-child) {
-border-right: 1px solid rgb(206, 206, 206);
+.stats > li:not(:last-child) {
+  border-right: 1px solid rgb(206, 206, 206);
 }
 
 .label {
-display: block;
-margin-bottom: 15px;
-font-size: 18px;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 
 .quantity {
-font-size: 15px;
-font-weight: 600;
+  font-size: 15px;
+  font-weight: 600;
 }
